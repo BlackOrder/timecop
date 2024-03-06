@@ -1,4 +1,4 @@
-package ca.hamaluik.timecop
+package link.sawa.timecop
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

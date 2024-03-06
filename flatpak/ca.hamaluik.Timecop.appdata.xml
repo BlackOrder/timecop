@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-	<id>ca.hamaluik.Timecop</id>
+	<id>link.sawa.Timecop</id>
 	<name>Time Cop</name>
 	<summary>A time tracking app that respects your privacy and gets the job done without getting too fancy</summary>
 	
@@ -69,5 +69,5 @@
 
 	<content_rating type="oars-1.1" />
 
-	<launchable type="desktop-id">ca.hamaluik.Timecop.desktop</launchable>
+	<launchable type="desktop-id">link.sawa.Timecop.desktop</launchable>
 </component>

@@ -1,7 +1,7 @@
 {
-    "appId": "ca.hamaluik.Timecop",
+    "appId": "link.sawa.Timecop",
     "lowercaseAppName": "timecop",
-    "githubReleaseOrganization": "hamaluik",
+    "githubReleaseOrganization": "blackorder",
     "githubReleaseProject": "timecop",
     "localReleases": [
         {
@@ -16,17 +16,17 @@
         }
     ],
     "localLinuxBuildDir": "../build/linux",
-    "appStreamPath": "ca.hamaluik.Timecop.appdata.xml",
-    "desktopPath": "ca.hamaluik.Timecop.desktop",
+    "appStreamPath": "link.sawa.Timecop.appdata.xml",
+    "desktopPath": "link.sawa.Timecop.desktop",
     "icons": {
-        "symbolic": "ca.hamaluik.Timecop-symbolic.svg",
-        "scalable": "ca.hamaluik.Timecop.svg"
+        "symbolic": "link.sawa.Timecop-symbolic.svg",
+        "scalable": "link.sawa.Timecop.svg"
     },
     "freedesktopRuntime": "22.08",
     "buildCommandsAfterUnpack": [
         "ln -s /usr/lib/x86_64-linux-gnu/libsqlite3.so.0 /app/lib/libsqlite3.so",
         "if [ ! -e '/app/lib/libsqlite3.so' ]; then ln -s -f /usr/lib/aarch64-linux-gnu/libsqlite3.so.0 /app/lib/libsqlite3.so; fi",
-        "if [ $(arch)=\"aarch64\"  ]; then sed -si \"/Exec=/cExec=env LIBGL_ALWAYS_SOFTWARE=1 timecop\" timecop/ca.hamaluik.Timecop.desktop; fi"
+        "if [ $(arch)=\"aarch64\"  ]; then sed -si \"/Exec=/cExec=env LIBGL_ALWAYS_SOFTWARE=1 timecop\" timecop/link.sawa.Timecop.desktop; fi"
     ],
     "finishArgs": [
         "--share=ipc",

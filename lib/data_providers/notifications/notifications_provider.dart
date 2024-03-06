@@ -78,7 +78,7 @@ class NotificationsProvider {
     );
 
     const android = AndroidNotificationDetails(
-        "ca.hamaluik.timecop.runningtimersnotification", "Running Timers",
+        "link.sawa.timecop.runningtimersnotification", "Running Timers",
         channelDescription:
             "Notification indicating that timers are currently running",
         priority: Priority.low,

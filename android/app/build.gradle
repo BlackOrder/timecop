@@ -32,7 +32,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 34
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
@@ -49,7 +49,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "ca.hamaluik.timecop"
+        applicationId "link.sawa.timecop"
         minSdkVersion 19
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
@@ -88,3 +88,5 @@ dependencies {
     implementation 'androidx.window:window:1.0.0' // needed with desugaring, in turn required by flutter_local_notifications
     implementation 'androidx.window:window-java:1.0.0' // needed with desugaring, in turn required by flutter_local_notifications
 }
+
+android.buildTypes.release.ndk.debugSymbolLevel = 'FULL'

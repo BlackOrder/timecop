@@ -8,7 +8,7 @@
 PRODUCT_NAME = Time Cop
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = ca.hamaluik.timecop
+PRODUCT_BUNDLE_IDENTIFIER = link.sawa.timecop
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2020 Kenton Hamaluik
